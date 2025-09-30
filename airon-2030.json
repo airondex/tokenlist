@@ -1,12 +1,19 @@
 {
-  "timestamp": "2025-09-29T00:00:00Z",
-  "name": "Airon Extended (Testnet)",
-  "version": { "major": 1, "minor": 0, "patch": 0 },
-  "logoURI": "/logo.png",
-  "keywords": ["airon", "testnet", "extended"],
+  "timestamp": "2025-09-30T02:35:00.000Z",
+  "name": "Airon Extended",
+  "version": {
+    "major": 4,
+    "minor": 16,
+    "patch": 557
+  },
+  "logoURI": "https://airon.network/logo.png",
+  "keywords": [
+    "airon-testnet",
+    "extended"
+  ],
   "tokens": [
     {
-      "name": "Wrapped Airon",
+      "name": "Wrapped Airon (Testnet)",
       "symbol": "WAIR",
       "address": "0x11C43293631a7c810918A10164016cEe458ac64D",
       "chainId": 2030,
@@ -14,7 +21,7 @@
       "logoURI": "https://raw.githubusercontent.com/aironnetwork/tokenlist/refs/heads/main/icons/2030/airon.png"
     },
     {
-      "name": "USD Coin",
+      "name": "USD Coin (Testnet)",
       "symbol": "USDC",
       "address": "0xcfaFE77e52A5345D9D9a5A492dc0571feB71D08a",
       "chainId": 2030,
@@ -22,12 +29,36 @@
       "logoURI": "https://raw.githubusercontent.com/aironnetwork/tokenlist/refs/heads/main/icons/2030/usdc.png"
     },
     {
-      "name": "Tether USD",
+      "name": "USD Thether (Testnet)",
       "symbol": "USDT",
       "address": "0x2C7a93b3e62750F5FfE2e7CACcb7eDd0E6Eb1d48",
       "chainId": 2030,
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/aironnetwork/tokenlist/refs/heads/main/icons/2030/usdt.png"
+    },
+    {
+      "name": "Airon BTC (Testnet)",
+      "symbol": "AIRBTC",
+      "address": "0x8Afe1E0DbD1Eb18c49F52Bc7062c4b7b022c6E0b",
+      "chainId": 2030,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/aironnetwork/tokenlist/refs/heads/main/icons/2030/airbtc.png"
+    },
+    {
+      "name": "Airon ETH (Testnet)",
+      "symbol": "AIRETH",
+      "address": "0x44100dFfa59600BAf751077d68049Eb684e5695a",
+      "chainId": 2030,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/aironnetwork/tokenlist/refs/heads/main/icons/2030/eth.svg"
+    },
+    {
+      "name": "Airon BNB (Testnet)",
+      "symbol": "AIRBNB",
+      "address": "0xC518002e98fe0CA3107fbe698CD56174eA9ac91B",
+      "chainId": 2030,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/aironnetwork/tokenlist/refs/heads/main/icons/2030/bnb.svg"
     }
   ]
 }
